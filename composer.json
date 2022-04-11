@@ -1,0 +1,20 @@
+{
+    "name": "bariscodefx/phpko",
+    "autoload": {
+        "psr-4": {
+            "Bariscodefx\\Phpko\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bariscodefxy",
+            "email": "bariscodefx@gmail.com"
+        }
+    ],
+    "require": {
+    	"php": ">=7.4",
+	"extension-sdl": "*",
+	"extension-opengl": "*",
+	"extension-sdl_image": "*"
+    }
+}
